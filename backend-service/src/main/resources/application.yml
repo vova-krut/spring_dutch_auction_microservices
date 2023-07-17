@@ -1,0 +1,27 @@
+security:
+  secret-key: KAKLFDAKLDNALKDJALKJDLKAJLKDWJEKLQWNELKQWJENLKWQJEKQLWJDLKSJDLKASDJSLAKDJLKWQEJKLQWJELQKWEJKLQWEJLKWQEWDKS
+  salt: ASJDKKALDJLKSAHFKJDSHFLKJDSHFLJKSHGKDJLSHGLSDRYHIUHSGJKLFGSHLFDGYUSIRTYEUITRIUEWJLETHJIFSDHFIDSGUYPBVJCIPYSUGYRE
+upload:
+  path: api-gateway/src/main/resources/static/
+  host: http://localhost:3000/
+spring:
+  application:
+    name: backend-service
+  servlet:
+    multipart:
+      max-file-size: 36MB
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8181/realms/dutch_auction
+          jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs
+server:
+  port: 0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+    prefer-ip-address: true

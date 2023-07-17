@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="jakarta.annotation.PostConstruct" />
+      <item index="1" class="java.lang.String" itemvalue="org.springframework.beans.factory.annotation.Value" />
+      <item index="2" class="java.lang.String" itemvalue="org.springframework.context.annotation.Bean" />
+      <item index="3" class="java.lang.String" itemvalue="org.springframework.context.annotation.Configuration" />
+      <item index="4" class="java.lang.String" itemvalue="org.springframework.data.rest.core.config.Projection" />
+      <item index="5" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.DeleteMapping" />
+      <item index="6" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.ExceptionHandler" />
+      <item index="7" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.GetMapping" />
+      <item index="8" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.PatchMapping" />
+      <item index="9" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.PostMapping" />
+      <item index="10" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.RestControllerAdvice" />
+    </list>
+    <writeAnnotations>
+      <writeAnnotation name="org.springframework.beans.factory.annotation.Autowired" />
+      <writeAnnotation name="org.springframework.beans.factory.annotation.Value" />
+    </writeAnnotations>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17 (WSL)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

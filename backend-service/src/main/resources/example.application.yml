@@ -1,0 +1,25 @@
+security:
+  secret-key:
+  salt:
+upload:
+  path:
+  host:
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+  jpa:
+    open-in-view:
+    hibernate:
+      ddl-auto:
+    show-sql:
+    properties:
+      hibernate:
+        format_sql:
+    database:
+    database-platform:
+  servlet:
+    multipart:
+      max-file-size:
